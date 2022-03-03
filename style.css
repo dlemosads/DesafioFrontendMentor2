@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.root html{
+    
+    height: 100%;  
+}
+
+body {
+    background-image: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+    background-attachment: fixed;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 700px;
+    min-width: 400px;
+    max-height: 400px;
+    min-height: 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.img {
+    width: 700px;
+    height: 400px;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-size: 618px 737px;
+    background-position: -301px -218px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.imgw {
+    width: 700px;
+    height: 400px;
+    background-image: url(images/illustration-woman-online-desktop.svg);
+    background-size: 362px 278px;
+    background-position: -45px 64px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.imgbox {
+    position: absolute;
+    left: -90px;
+    top: 139px;
+}
+
+.content {
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    float: right;
+    background-color: white;
+}
+
+h1 {
+    margin: 30px 0px 0px 30px;
+}
+
+p {
+    margin: 30px 0px 0px 30px;
+    display: inline-block;
+}
+
+p:hover{
+    font-weight: bold;
+    cursor: default;
+}
+
+.imgarrow {
+    transform: rotate(0deg);
+    transition: transform 2s;
+}
+
+.solid {
+    border-top: 0px solid hsl(240, 5%, 91%);
+    width: 82%;
+    margin-top: 10px;    
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: white; 
+}
+
+.dropbtn {
+    background-color: white;
+    padding: 25px 0px 0px 30px;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+}
+  
+.dropbtn:hover {
+    font-weight: bold;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    background-color: white;
+}
+
+#titulo1 {
+    z-index: 5;
+}
+
+#titulo2 {
+    z-index: 4;
+}
+
+#titulo3 {
+    z-index: 3;
+}
+
+#titulo4 {
+    z-index: 2;
+}
+
+#titulo5 {
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 25px 0px 0px 40px;
+    text-decoration: none;
+    display: block;
+}
+  
+.show {
+    display: block;
+}
+
+/*
+
+transform: rotate(180deg);
+
+How many team members can I invite?
+  You can invite up to 2 additional users on the Free plan. 
+  There is no limit on team members for the Premium plan.
+
+  What is the maximum file upload size?
+  No more than 2GB. 
+  All files in your account must fit your allotted storage space.
+
+  How do I reset my password?
+  Click “Forgot password” from the login page or “Change password” from your profile page.
+  A reset link will be emailed to you.
+
+  Can I cancel my subscription?
+  Yes! Send us a message and we’ll process your request no questions asked.
+
+  Do you provide additional support?
+  Chat and email support is available 24/7. 
+  Phone lines are open during normal business hours.
+*/
+
